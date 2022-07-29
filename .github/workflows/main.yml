@@ -31,5 +31,5 @@ jobs:
       uses: actions
       with:
         name: Mpv-release
-        path: ./src/Release-x64/*
+        path: ./src/*
         if-no-files-found: error
